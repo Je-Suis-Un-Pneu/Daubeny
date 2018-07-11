@@ -9,16 +9,20 @@ header {
 }
 
 .menu {
-  height: 100%;
-  width: 100%;
-  margin-left: 1000px;
-  display: flex;
+  display:flex;
+  width:300px;
+	height:100px;
+	background:#069;
+	-webkit-transform:skew(30deg);
+	-moz-transform:skew(30deg);
+	-o-transform:skew(30deg);
+	tranform:skew(30deg);
   background-color: rgba(0, 0, 0, 0);
   background-image: linear-gradient(#929393, #595A5A);
 }
 
 .menu ul {
-  margin-right: :20px;
+  
   display: flex;
   text-align: center;
   justify-content: left;
@@ -111,18 +115,22 @@ background-color: #DB1818;
 
 
 p {
+  font-family: gothballcrapbold;
+  font-size:2em;
   text-align: center;
   margin-top: 50px;
-  font-size: 14px;
   color: white;
   text-shadow: 2px 2px black;
   width: 100%
 }
 
 @font-face {
-    font-family: 'pamelaregular';
-    src: url('pamela-webfont.woff2') format('woff2'),
-         url('pamela-webfont.woff') format('woff');
+    font-family: 'gothballcrapbold';
+    src: url('gothballcrap-webfont.eot');
+    src: url('gothballcrap-webfont.ttf') format('truetype'),
+         url('gothballcrap-webfont.woff') format('woff'),
+         url('gothballcrap-webfont.eot?#iefix') format('embedded-opentype'),
+         url('gothballcrap-webfont.svg#gothballcrapbold') format('svg');
     font-weight: normal;
     font-style: normal;
 
