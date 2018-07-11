@@ -9,20 +9,27 @@ header {
 }
 
 .menu {
-  height: 100%;
-  width: 100%;
+  display:flex;
+  width:100%;
+	height:100%;
+  margin-top: 0;
   margin-left: 1000px;
-  display: flex;
   background-color: rgba(0, 0, 0, 0);
-  background-image: linear-gradient(#929393, #595A5A);
 }
 
 .menu ul {
-  margin-right: :20px;
+  height: 100%;
+  width:100%;
+  margin-top: 0px;
+  padding-left: 40px;
   display: flex;
   text-align: center;
   justify-content: left;
   align-items: center;
+  border: 5px solid #FEFEFE;
+  border-right: 0px;
+	border-bottom-left-radius: 100px 90px;
+  background-image: linear-gradient(#929393, #595A5A);
 
 }
 
