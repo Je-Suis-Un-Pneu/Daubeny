@@ -154,8 +154,7 @@ background-color: #DB1818;
     {
     position : absolute;
     width : 100px;
-    left : -999em;
-    background
+    display: none;
     }
 #menu li ul li
     {
@@ -173,7 +172,7 @@ background-color: #DB1818;
 
 #menu li:hover ul ,#menu li li:hover ul , #menu li.sfhover ul ,#menu li li.sfhover ul
     {
-    left : auto;
+    display: block;
     min-heigth : 0;
     }
 
