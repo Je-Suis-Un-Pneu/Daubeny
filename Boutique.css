@@ -14,7 +14,7 @@ header {
   width:100%;
 	height:100%;
   margin-top: 0;
-  margin-left: 1000px;
+  margin-left: 950px;
   background-color: rgba(0, 0, 0, 0);
 }
 
@@ -56,13 +56,34 @@ body {
     margin: 0px
 }
 
-.Grille {
+.grille {
   display: grid;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin: 40px;
-
+  width: 100%;
   height: 100%;
+  margin-right: 15px;
+}
+
+.grille ul {
+  height: 100%;
+  width:100%;
+  margin: 0px;
+  display: flex;
+  text-align: center;
+  justify-content: left;
+  align-items: center;
+}
+
+.grille li {
+  margin-left: 50px;
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  background-color: white;
+  border: 2px solid #FEFEFE;
 }
