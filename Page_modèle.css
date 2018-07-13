@@ -57,31 +57,29 @@ header {
 body {
     display: block;
     margin: 0px;
-    background-image: url('https://ubistatic19-a.akamaihd.net/resource/en-us/game/forhonor/fh-game/fh_maps_citadelgate_updated_ncsa.jpg');
+    background-image: url('https://store.ubi.com/dw/image/v2/ABBS_PRD/on/demandware.static/-/Sites-masterCatalog/default/dwdf71c7db/images/large/5759633788a7e3de678b4567-2.jpg?sw=1084&sh=822&sm=fit');
     background-size: cover;
     background-position: top;
     background-attachment: fixed;
-    font-family: gothballcrapbold;
 }
 
-a:link{
+a:link {
 cursor:url('heroes.cur'), wait;
 }
 
-.accueil {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  margin-top: 0;
-  height: 100%;
-  width: 100%;
+.Poutre {
+    display: flex;
+    flex-direction: initial;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 0;
+    height: 100%;
 }
 
 .bouton a {
-margin-top: 150px;
-margin-left: 40%;
+margin-top: 100px;
+margin-left: 85px;
 display:block;
 width:150px;
 line-height:50px;
@@ -95,19 +93,9 @@ text-decoration:none;
 background-color: #DB1818;
 }
 
-.Poutre {
-  display: flex;
-  flex-direction: initial;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  margin-top: 0;
-  height: 100%;
-}
-
 .bouton2 a {
-margin-top: 200px;
-margin-left: 400px;
+margin-top: 100px;
+margin-left: 85px;
 display:block;
 width:150px;
 line-height:50px;
@@ -121,70 +109,32 @@ text-decoration:none;
 background-color: #DB1818;
 }
 
-#menu-home
-    {
-    margin:auto;
-    width : 321px;
-    margin-left: 400px;
-    margin-top : 200px;
-    margin-right: 0px;
-    padding-left:0px;
-    position:relative;
-
-    }
-
-#menu , #menu ul
-{
-    padding : 0;
-    margin:auto;
-    list-style : none;
-    line-height : 26px;
-    text-align : center;
-    }
-
-#menu a {
-    display : block;
-    padding : O;
-    width:150px;
-    line-height:50px;
-    text-align:center;
-    vertical-align:middle;
-    background-color: #B61111;
-    color:white;
-    text-decoration:none;
+.bouton3 a {
+margin-top: 100px;
+margin-left: 85px;
+display:block;
+width:150px;
+line-height:50px;
+text-align:center;
+vertical-align:middle;
+background-color: #B61111;
+color:white;
+text-decoration:none;
+}
+.bouton3 a:hover {
+background-color: #DB1818;
 }
 
-#menu li
-    {
-    float : left;
-    }
 
-#menu li ul
-    {
-    position : absolute;
-    width : 100px;
-    display: none;
-
-    }
-#menu li ul li
-    {
-    border-top :0;
-    border-bottom :0;
-    font-size:13px;
-
-    }
-
-#menu a:hover
-    {
-    background-color: #DB1818;
-    display:block;
-    }
-
-#menu li:hover ul ,#menu li li:hover ul , #menu li.sfhover ul ,#menu li li.sfhover ul
-    {
-    display: block;
-    min-heigth : 0;
-    }
+p {
+  font-family: gothballcrapbold;
+  font-size:2em;
+  text-align: center;
+  margin-top: 50px;
+  color: white;
+  text-shadow: 2px 2px black;
+  width: 100%
+}
 
 @font-face {
     font-family: 'gothballcrapbold';
