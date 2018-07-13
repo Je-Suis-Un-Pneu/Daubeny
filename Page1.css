@@ -56,7 +56,12 @@ body {
     background-size: cover;
     background-position: top;
     background-attachment: fixed;
-  }
+    cursor: url('Souris.cur'), pointer;
+}
+
+a:link {
+cursor:url('heroes.cur'), wait;
+}
 
 .Poutre {
     display: flex;

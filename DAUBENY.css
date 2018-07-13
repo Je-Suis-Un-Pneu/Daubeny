@@ -57,6 +57,11 @@ body {
     background-position: top;
     background-attachment: fixed;
     font-family: gothballcrapbold;
+    cursor: url('Souris.cur'), pointer;
+}
+
+a:link{
+cursor:url('heroes.cur'), wait;
 }
 
 .accueil {
@@ -133,8 +138,7 @@ background-color: #DB1818;
     text-align : center;
     }
 
-#menu a
-    {
+#menu a {
     display : block;
     padding : O;
     width:150px;
@@ -144,7 +148,8 @@ background-color: #DB1818;
     background-color: #B61111;
     color:white;
     text-decoration:none;
-    }
+}
+
 #menu li
     {
     float : left;
@@ -155,6 +160,7 @@ background-color: #DB1818;
     position : absolute;
     width : 100px;
     display: none;
+
     }
 #menu li ul li
     {
