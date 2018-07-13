@@ -31,10 +31,10 @@ header {
   text-align: center;
   justify-content: left;
   align-items: center;
-  border: 5px solid #FEFEFE;
+  border: 5px solid #261700;
   border-right: 0px;
 	border-bottom-left-radius: 100px 90px;
-  background-image: linear-gradient(#929393, #595A5A);
+  background-image: linear-gradient(#7B4F15, #644B2A);
 
 }
 

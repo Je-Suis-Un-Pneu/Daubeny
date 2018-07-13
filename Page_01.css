@@ -2,12 +2,24 @@ html {
   height: 100%;
 }
 
+body {
+    height: 100%;
+    display: block;
+    margin: 0px;
+    background-image: url('https://store.ubi.com/dw/image/v2/ABBS_PRD/on/demandware.static/-/Sites-masterCatalog/default/dwdf71c7db/images/large/5759633788a7e3de678b4567-2.jpg?sw=1084&sh=822&sm=fit');
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    cursor: url('Souris.cur'), pointer;
+}
+
 header {
   display: flex;
   justify-content: space-around;
   align-items: center;
   z-index: 1;
   position: relative;
+  opacity: 1;
   height: 90px;
   background-color: rgba(0, 0, 0, 0);
 }
@@ -51,17 +63,6 @@ header {
 .menu img {
   height: 50px;
   width: 130px;
-}
-
-body {
-    height: 100%;
-    display: block;
-    margin: 0px;
-    background-image: url('https://store.ubi.com/dw/image/v2/ABBS_PRD/on/demandware.static/-/Sites-masterCatalog/default/dwdf71c7db/images/large/5759633788a7e3de678b4567-2.jpg?sw=1084&sh=822&sm=fit');
-    background-size: cover;
-    background-position: top;
-    background-attachment: fixed;
-    cursor: url('Souris.cur'), pointer;
 }
 
 a:link {
@@ -130,13 +131,12 @@ background-color: #DB1818;
 
 
 p {
-  font-family: gothballcrapbold;
   font-size:2em;
   text-align: center;
   margin-top: 50px;
   color: white;
   text-shadow: 2px 2px black;
-  width: 100%
+  width: 100%;
 }
 
 @font-face {
