@@ -11,6 +11,7 @@ body {
     background-position: top;
     background-attachment: fixed;
     cursor: url('Souris.cur'), pointer;
+    font-family: gothballcrapbold;
 }
 
 header {
@@ -65,70 +66,41 @@ header {
   width: 130px;
 }
 
-a:link {
+button {
 cursor:url('heroes.cur'), wait;
 }
 
-.Poutre {
+.poutre {
     height: 100%;
     display: flex;
     flex-direction: initial;
     align-items: center;
     justify-content: center;
     text-align: center;
+    margin-left: 100px;
     margin-top: 0px;
     margin-bottom: 0px;
     height: 100%;
 }
 
-.bouton a {
-margin-top: 100px;
-margin-left: 85px;
-display:block;
-width:150px;
-line-height:50px;
-text-align:center;
-vertical-align:middle;
-background-color: #B61111;
-color:white;
-text-decoration:none;
-}
-.bouton a:hover {
-background-color: #DB1818;
-}
-
-.bouton2 a {
-margin-top: 100px;
-margin-left: 85px;
-display:block;
-width:150px;
-line-height:50px;
-text-align:center;
-vertical-align:middle;
-background-color: #B61111;
-color:white;
-text-decoration:none;
-}
-.bouton2 a:hover {
-background-color: #DB1818;
+button {
+  margin-top: 100px;
+  margin-left: 85px;
+  display:block;
+  width:150px;
+  line-height:50px;
+  text-align:center;
+  vertical-align:middle;
+  background-color: #B61111;
+  color:white;
+  border : 0px;
+  font-family: gothballcrapbold;
+  text-decoration:none;
 }
 
-.bouton3 a {
-margin-top: 100px;
-margin-left: 85px;
-display:block;
-width:150px;
-line-height:50px;
-text-align:center;
-vertical-align:middle;
-background-color: #B61111;
-color:white;
-text-decoration:none;
+button:hover {
+  background-color: #DB1818;
 }
-.bouton3 a:hover {
-background-color: #DB1818;
-}
-
 
 p {
   font-size:2em;
