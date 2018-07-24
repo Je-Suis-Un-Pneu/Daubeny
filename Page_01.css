@@ -66,12 +66,7 @@ header {
   width: 130px;
 }
 
-button {
-cursor:url('heroes.cur'), wait;
-}
-
 .poutre {
-    height: 100%;
     display: flex;
     flex-direction: initial;
     align-items: center;
@@ -80,26 +75,7 @@ cursor:url('heroes.cur'), wait;
     margin-left: 100px;
     margin-top: 0px;
     margin-bottom: 0px;
-    height: 100%;
-}
-
-button {
-  margin-top: 100px;
-  margin-left: 85px;
-  display:block;
-  width:150px;
-  line-height:50px;
-  text-align:center;
-  vertical-align:middle;
-  background-color: #B61111;
-  color:white;
-  border : 0px;
-  font-family: gothballcrapbold;
-  text-decoration:none;
-}
-
-button:hover {
-  background-color: #DB1818;
+    height: 50%;
 }
 
 p {
@@ -111,6 +87,17 @@ p {
   width: 100%;
 }
 
+.cadre {
+  background-color: white;
+  border-radius: 2px;
+  border-color: black;
+  opacity: 0;
+}
+
+a {
+  cursor:url('heroes.cur'), wait;
+}
+
 @font-face {
     font-family: 'gothballcrapbold';
     src: url('gothballcrap-webfont.eot');
@@ -120,4 +107,24 @@ p {
          url('gothballcrap-webfont.svg#gothballcrapbold') format('svg');
     font-weight: normal;
     font-style: normal;
+}
+
+
+div {
+    width: 100%;
+}
+
+#arg2{
+     cursor:url('heroes.cur'), wait;
+     position: absolute;
+     transition:all 2s;
+     opacity:0;
+     margin-top: 32px;
+     background-color: white;
+     border: solid black 2px;
+}
+
+div:hover #arg2 {
+     transform:scale(1) rotate(360deg);
+     opacity:1;
 }

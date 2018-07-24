@@ -1,17 +1,13 @@
 $(document).ready(function() {
   $('#combattre').click(e => {
-    $('#text').html("Oui");
-      $('#ok1').html("Manger");
-      $('#ok2').html("Crier");
-      $('#ok').html("Hurler");
-      $('body').css("background-image", "url('https://assets.vg247.com/current//2018/05/for_honor_new_hero_teaser_2018_header_1.jpg')")
+    $('#text').html("Brandit courageusement son epee et l'abbatit de toutes ses forces sur le bandit !");
 })
 
   $('#garde').click(e => {
-    $('#text').html("jcgvghyf,ytynttdvv");
+    $('#text').html("Tenta de déstabiliser son adversaire en le desarmant ! ");
   })
   $('#fuir').click(e => {
-    $('#text').html("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA<br>AAAAAAAAAAAAAAAAAAAAAAAAH");
+    $('#text').html("Fit demi tour et courru de toutes ses forces afin d'eviter l'affrontement !");
   })
 });
 
